@@ -6,8 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 Student.destroy_all
+Tcf.destroy_all
+Cohort.destroy_all
 
-students = Student.create ([
+
+students = Student.create([
     {
         name: 'Andy Purbrick'
     },
@@ -46,5 +49,29 @@ students = Student.create ([
     },
     {
         name: 'Valeria Ragonese'
+    }
+])
+
+tcfs = Tcf.create([
+    {
+        name: 'Guy Bennett-Jones'
+    },
+    {
+        name: 'Vasile Cojusco'
+    },
+    {
+        name: 'Wachira'
+    },
+    {
+        name: 'Alice'
+    },
+])
+
+cohorts = Cohort.create([
+    {
+        name: 'git-commit-suicide'
+    },
+    {
+        name: 'git-some'
     }
 ])
