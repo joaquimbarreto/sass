@@ -1,0 +1,2 @@
+class TechnicalCoachingFellowsController < ApplicationController
+end
